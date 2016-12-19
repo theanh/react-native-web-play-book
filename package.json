@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.24.1",
+    "react": "15.3",
+    "react-native-web": "^0.0.60",
+    "webpack": "^1.14.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --port 3000 --config web/webpack.config.dev.js --inline --hot --colors --quiet",
+    "start": "webpack src --config webpack.config.js"
+  }
+}
